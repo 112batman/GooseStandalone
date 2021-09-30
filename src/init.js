@@ -43,7 +43,7 @@ export default async (platform, channel, source, buildPath) => {
     
             console.log('Downloading tar (', url, ')');
           
-            await downloadFile(path, url);
+            await downloadFile(tarPath, url);
     
             break;
           }
